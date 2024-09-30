@@ -9,7 +9,7 @@ function studentGrade(score) {
             break;
 
         case (score > 80 && score <= 90):
-            return "You got ";
+            return "You got A";
             break;
 
         case (score > 70 && score <= 80):
@@ -21,11 +21,11 @@ function studentGrade(score) {
             break;
 
         case (score > 50 && score <= 60):
-            return "You got C";
+            return "You got D";
             break;
 
         case (score > 40 && score <= 50):
-            return "You got D";
+            return "You got E";
             break;
 
         case (score > 0 && score <= 40):
@@ -42,4 +42,4 @@ function studentGrade(score) {
 
 }
 
-console.log(studentGrade(69));
+console.log(studentGrade(+56));
