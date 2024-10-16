@@ -97,7 +97,7 @@ test(`Marathon 1 - Salesforce Applciation - Create and verify a New Case in Chat
 
     await page.locator("//button[@title='Share an update...']").click();
 
-    await page.locator("(//div[@contenteditable='true'])[1]").fill("Case Update info added");
+    await page.locator("(//div[@contenteditable='true'])[1]").fill("Test 16-Oct-2024");
 
     await page.locator("//button[contains(@class,'slds-button slds-button_brand')]").click();
 
